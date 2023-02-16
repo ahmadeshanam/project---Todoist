@@ -112,3 +112,4 @@ const bottomMessage = function (userLogged) {
 
 getUserName();
 updateUI(user);
+//new change to see what git might do
