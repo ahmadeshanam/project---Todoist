@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,300,0,-25" />
+    <title>Todoist</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="topBar">
+        <p id="welcme">welcome user, wish you a good day!</p>
+    </nav>
+
+    <main class="app">
+        <p class="taskListTitle">Today:</p>
+        <button class="btnAddTask" onclick = "addTaskFun(user)">add task</button>
+        <nav class="taskList">
+            <div class="task">
+                <div class="taskContainer">
+                    <p class="task_name">water the plants 🪴</p>
+                </div>
+                <input type="checkbox" class="task_checkBox" id="c0">
+                <button class="task_remove" id="r0"><span class="material-symbols-outlined">
+                        delete
+                    </span></button>
+            </div>
+            
+        </nav>
+    </main>
+    <nav class="botBar">
+        <div class="congrats">Congrats! You've done 1 task so far</div>
+    </nav>
+
+
+</body>
+
+
+</html>

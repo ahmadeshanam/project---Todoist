@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "SourceSans";
+    src: url("SourceSansPro-Regular.ttf");
+}
+
+body {
+    font-family: 'SourceSans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 8vw 1vw 1vw 0;
+}
+
+.topBar{
+    box-shadow: rgba(17, 17, 26, 0.2) 0px 0px 16px;
+    color: #EEEEEE;
+    margin: auto;
+    width: 80vw;
+    height: 10vw;
+    box-sizing: border-box;
+    background-color: #393E46;
+    border-top-left-radius: 2vw ;
+    border-top-right-radius: 2vw ;
+    text-align: center;
+    font-size: 3vw;
+    border-bottom: #222831 solid .5vw;
+
+}
+
+.topBar p{
+    display: inline-block;
+}
+
+.btnAddTask{
+    border: none;
+    display: inline-block;
+    margin-left: 38vw;
+    border-radius: 3vw;
+    font-size: 3vw;
+    width: 14vw;
+    height: 5vw;
+    font-weight: 500;
+    background-color: #EEEEEE;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    font-style:oblique;
+}
+
+.btnAddTask:hover{
+    cursor: pointer;
+    background-color: rgb(208, 208, 208);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.app{
+    box-shadow: rgba(17, 17, 26, 0.2) 0px 0px 16px;
+    color: #222831;
+    text-align: left;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0vw 5vw 2vw 5vw;
+    box-sizing: border-box;
+    width: 80vw;
+    height: 80vw;
+    background-color: #00ADB5;
+    position: relative;
+
+}
+
+.taskListTitle{
+    display: inline-block;
+    font-size: 4vw;
+    font-weight: 600;
+    margin-left: 3vw;
+}
+
+.taskList{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    Overflow-y:scroll;
+    background-color: #EEEEEE;
+    margin-top: 3vw;
+    padding: 2vw;
+    border-radius: 1.7vw;
+    box-sizing: border-box;
+    height: 50vw;
+    
+}
+
+.task_name{
+    font-size: 3.5vw;
+    font-weight: 500;
+    display: inline-block;
+    left: 2vw;
+    color: #393E46;
+    font-weight: 500;
+}
+
+.task{
+    border-bottom: #393E46 solid .35vw;
+    width: 100%;
+}
+
+.task:hover{
+    background-color: #dbdbdb;
+}
+
+.task:first-child{
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+}
+
+.task:last-child{
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    border: none;
+}
+
+.taskContainer{
+    display: inline-block;
+    width: 55vw;
+    max-width: 55vw;
+    position: relative;
+    left: 0;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0 3vw 0 3vw;
+}
+
+.task_checkBox{
+    position:relative;
+    left: -1vw;
+    top: .32vw;
+    height: 3.4vw;
+    width: 3.4vw;
+    
+}
+
+.task_remove{
+    position:relative;
+    left: -2vw;
+    top:1vw;
+    height: 3.2vw;
+    width: 3vw;
+    font-weight: 100;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.botBar{
+    box-shadow: rgba(17, 17, 26, 0.2) 0px 0px 16px;
+    color: #EEEEEE;
+    height: 10vw;
+    width: 80vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    background-color: #393E46;
+    margin: auto;
+    border-top: #222831 solid .5vw;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 2vw;
+}
+
+.taskList::-webkit-scrollbar{
+    opacity: 0;
+    width: 0;
+}
+
+.lineThrough{
+    text-decoration:line-through;
+    opacity:0.7;
+}
+
