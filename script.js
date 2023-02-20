@@ -12,6 +12,9 @@ let user = {
     tasksDone: []
 }
 
+
+
+
 const getUserName = function () {
     let userNameTxt = prompt("Please enter your name", "username");
     userNameTxt == null ? userNameTxt = "USER" : user.userName = userNameTxt;
@@ -112,4 +115,14 @@ const bottomMessage = function (userLogged) {
 
 getUserName();
 updateUI(user);
-//new change to see what git might do
+
+
+//Make it responsive to window size:
+// if (screen.width > 500) {
+//     document.querySelector('.topBar').style.width='40vw';
+//     document.querySelector('.topBar').style.width='40vw';
+//     document.querySelector('.topBar').style.width='40vw';
+//     document.querySelector('.topBar').style.width='40vw';
+
+
+// }
